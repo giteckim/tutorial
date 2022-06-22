@@ -1,8 +1,21 @@
 2022-06-21
-git 공부
-1. 계정 생성
-2. 터미널에서 기본 명령어 실행 (commit, push, pull 등)
+[git 공부]
+git이란 로컬에서 관리되는 버전 관리 시스템
+github는 공유가 필요한 소스를 업로드하고, 내려받을 수 있는 원격저장소(클라우드)
+
+@ git 사용하기 위한 기본 익히기
+* git 계정 및 repository 생성 
+* 명령어
+commit : git으로 로컬에 코드 저장 -> git commit -m 'test'
+push : github에 업로드하여 다른 이들과 공유 혹은 개인소스 버전관리 -> git push origin master
+pull : github에서 다운로드 받아 사용 -> git pull origin master
+등
 
 2022-06-22
-1. Spring boot 환경 세팅
-- Spring initiallizer
+[Spring boot 환경 세팅]
+ Spring initiallizer 통한 프로젝트 생성
+  - gradle project(maven보다 성능적으로 우월, 스크립트 언어로 되어 있어 간결함, 최근 gradle을 많이 사용하는 추세)
+  - Spring Boot 2.7.0(정식 릴리즈된 현재 가장 최신버전)
+  - Packaging 방식은 Spring Boot 표준 가이드인 jar.
+  - java 17버전(gradle이 18버전 은 지원하지 않음)
+   
