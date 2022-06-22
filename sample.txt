@@ -1,4 +1,8 @@
-원숭이도 이해할 수 있는 Git 명령어
-1
-2
-pull test
+2022-06-21
+git
+1. 계정 생성
+2. 기본 명령어 commit, push, pull 
+
+2022-06-22
+1. Spring boot 환경 세팅
+- Spring initiallizer
